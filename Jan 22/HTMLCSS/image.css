@@ -1,0 +1,12 @@
+body{
+    background-color:pink;
+}
+img{
+   border-radius: 50px; 
+   height: 500px;
+   size: 2px;
+}
+a{
+    background-color: white;
+    text-decoration:dotted;
+}

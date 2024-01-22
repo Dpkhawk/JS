@@ -15,3 +15,6 @@ fieldset{
 legend{
     background-color: azure;
 }
+a{
+text-decoration: dashed;
+}
