@@ -1,0 +1,17 @@
+form{
+    margin: 20px;
+    /* border:  3px solid black;  */
+    background-color: rgb(250, 250, 157);
+    /* padding-top: 50px;
+    padding-bottom: 50px; */
+}
+label{
+    text-align: left;
+}
+fieldset{
+    margin: 50px 500px;
+    background-color: rgb(191, 250, 250);
+}
+legend{
+    background-color: azure;
+}
