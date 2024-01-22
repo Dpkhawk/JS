@@ -11,3 +11,5 @@ const intro="I\'m Deepak Kumar P from BIT and got an offer in Aspire Systems ";
  console.log(intro);
  console.log(games.lastIndexOf("Chess"));
  console.log(games.sort());
+ console.log(intro.substring(0,1))
+ 
