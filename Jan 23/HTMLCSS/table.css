@@ -1,0 +1,12 @@
+table,tr,td,th{
+ border: 1px solid black;
+ border-collapse: collapse;
+}
+table tr{
+    background-color: rgb(23, 40, 55);}
+/*  Descendant combinator selects all tr   children to table */
+ul>li{
+    list-style-type:decimal;
+} 
+/* child combinator:li which are direct children to ul */
+/* next-sibling selector:+:next sibling element like img+p  para tag present next to image tag*/
