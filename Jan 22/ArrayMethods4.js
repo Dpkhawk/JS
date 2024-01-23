@@ -11,3 +11,4 @@ const newMap=numbers.map(n=>n>2)//returns false or true
 console.log(newMap);
 const newFilter=numbers.filter(n=>n*2)//returns the original array
 console.log(newFilter);
+console.log(newNumbers);
