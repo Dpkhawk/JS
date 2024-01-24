@@ -1,0 +1,27 @@
+label{
+    text-align: left;
+}
+fieldset{
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    margin-right: 900px;
+    border: 2px solid black;
+    background-color: rgb(251, 251, 245);
+    
+}
+legend{
+    font-size: larger;
+    border: 3px solid black;
+    padding: 3px;
+}
+div{
+    position: relative;
+}
+body{
+    background: linear-gradient(to left, #333, #333 50%, #eee 75%, #333 75%); 
+}
+button{
+    margin-top: 15px;
+    margin-left:150px;
+}

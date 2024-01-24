@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="forms.css">
+</head>
+<body>
+    <form>
+        <div></div>
+        <fieldset>
+            <legend>
+                Credentials
+            </legend>
+            <table>
+                <tr>
+                    <td>
+                        <label for="username">Enter the name</label>
+                    </td>
+                    <td>
+                        <input type="text" id="username" required placeholder="Enter the user name">
+                    </td>
+                </tr> 
+                <tr>
+                    <td>
+                        <label for="password">Enter the password</label>
+                    </td>
+                    <td>
+                        <input type="password" id="password" required placeholder="Enter the password">
+                    </td>
+                    <tr>
+                    </tr>
+                </tr>
+                <tr>
+                    <td>
+                       <label for="Story" >Description</label> 
+                    </td>
+                    <td>
+                        <textarea  id="Story" required cols="30" rows="10" placeholder="Description"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="Gender">Gender</label>
+                    </td>
+                    <td>
+                        <select name="Gender" id="Gender">
+                            <option value="Male">Male</option>
+                            <option value="Female">Female</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+            <button>submit</button>
+        </fieldset>
+    </form>
+</body>
+</html>
