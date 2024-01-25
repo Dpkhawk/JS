@@ -1,0 +1,16 @@
+h1{
+   text-align: center;
+   background-color: beige;
+}
+h1 div{
+    background-color: #e94d4d;
+}
+h2{
+    background-color: aqua;
+}
+h2 span{
+    background-color: blueviolet;
+}
+summary{
+    background:linear-gradient(black 25%, white 50%);
+}
