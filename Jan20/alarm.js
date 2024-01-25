@@ -8,10 +8,10 @@ function display(){
     // para.textContent=Inputvalue;
     // document.body.append(para);
     alarm(Inputvalue)
-     .then((message)=>para.textContent=message);
-     setTimeout(()=>document.body.append(para),Inputvalue);
+     .then((message)=>para.textContent=message)
+    .catch((error)=>para.textContent=error);
+    setTimeout(()=>document.body.append(para),Inputvalue);
      
-    // .catch((error)=>para.textContent=error);
     // document.body.append(para);
 }
 function alarm(Inputvalue) {
