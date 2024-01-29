@@ -1,0 +1,13 @@
+blockquote{
+    background-color: beige;
+}
+q{
+    background-color: aliceblue;
+}
+#id{
+    background-color: blue;
+}
+.block{
+    background-color: brown;
+}
+/* id has more priority */
