@@ -9,27 +9,27 @@
 // callbacks[1]()
 // console.log(callbacks[1]());
 
-function outside(one){
-    console.log(`${one}`);
+function outside(){
+    console.log("outside");
 }
 
-outside("one")
-// function outside(one){
-//     console.log(`${one} outside`);
-// }
-// {
-//     function outside(){
-//         console.log("inside");
-//     }
-//     outside()
-//     {
-//         function outside() {
-//         console.log("Ins inside");}
-//         outside()
-//     }
- //    outside()
-// }
-outside("two")
+outside()
+function outside(){
+    console.log("out outside");
+}
+{
+    function outside(){
+        console.log("inside");
+    }
+    outside()
+    {
+        function outside() {
+        console.log("Ins inside");}
+        outside()
+    }
+    outside()
+}
+outside()
 // const arr1=[1,2,3,4]
 // const arr2=[5,6,7,8]
 // const arr3=[9,10,11,12]
