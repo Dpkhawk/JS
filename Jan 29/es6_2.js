@@ -34,3 +34,4 @@ function name(params) {
 }
 const func=name()
 console.log(func);
+console.log('Welcome');

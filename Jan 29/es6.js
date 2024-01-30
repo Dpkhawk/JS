@@ -38,3 +38,7 @@ outside()
 // const arr5=[...arr1,...arr2,...arr3];
 // console.log(arr5);
 
+function display() {
+    console.log("welcome")
+}
+console.log(display());
