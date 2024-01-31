@@ -50,3 +50,4 @@ console.log(callbacks)
 console.log(callbacks[0]())
 console.log(callbacks[1]())
 console.log(callbacks[2]())
+console.log(callbacks[3]());
