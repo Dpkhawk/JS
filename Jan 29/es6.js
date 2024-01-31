@@ -42,3 +42,4 @@ function display() {
     console.log("welcome")
 }
 console.log(display());
+console.log("welcome");
