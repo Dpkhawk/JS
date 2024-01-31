@@ -1,14 +1,14 @@
-// const numbers=[1,2,3,4,5]
-// const odds  = numbers.map(v => v + 1)
-// const pairs = numbers.map(v => ({evens:v,odds:v+1}))
-// const nums  = numbers.map((v, i) => v + i)
-// // console.log(pairs);
-// for(let i=0;i<pairs.length;i++){
-//     console.log(pairs[i]);
-//     for(const values in pairs[i]){
-//         console.log(`${values} ${pairs[0][values]}`);
-//     }
-// }
+const numbers=[1,2,3,4,5]
+const odds  = numbers.map(v => v + 1)
+const pairs = numbers.map(v => ({evens:v,odds:v+1}))
+const nums  = numbers.map((v, i) => v + i)
+// console.log(pairs);
+for(let i=0;i<pairs.length;i++){
+    console.log(pairs[i]);
+    for(const values in pairs[i]){
+        console.log(`${values} ${pairs[i][values]}`);
+    }
+}
 
 // // function func(x,y=3,z=4){
 // //     return x+y+z;

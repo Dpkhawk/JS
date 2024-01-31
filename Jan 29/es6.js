@@ -9,7 +9,7 @@
 // callbacks[1]()
 // console.log(callbacks[1]());
 
-function outside(){
+function inside(){
     console.log("outside");
 }
 
