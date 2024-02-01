@@ -1,0 +1,11 @@
+/* pseudo-element-added to a selector that lets you style a specific part of the selected element */
+p::first-line{
+    background-color: beige;
+}
+input::placeholder{
+  color: brown;
+}
+button:hover{
+    background-color: black;
+}
+/* added to a selector that specifies a special state of the selected element-pseudo class*/
