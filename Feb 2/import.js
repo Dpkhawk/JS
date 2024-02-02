@@ -1,4 +1,4 @@
-import values,{value1,Person} from "./export.js";
+import values,{value1,Person,arr} from "./export.js";
 console.log(values);
 console.log(value1);
 //Person.intro()
@@ -20,3 +20,4 @@ class Emp extends Person{
 // const obj2=new Emp("kumar",13,22);
 //obj2.intro()
 Emp.intro()
+console.log(arr[0]);
