@@ -1,4 +1,4 @@
-import values,{value1,Person,arr} from "./export.js";
+import values,{value1,arr} from "./export.js";
 console.log(values);
 console.log(value1);
 //Person.intro()

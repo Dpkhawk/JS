@@ -7,15 +7,17 @@ class Person{
         this.name=name;
         this.id=id
     }
-    static intro(){
-       // console.log(`${this.name} ${this.id}`)
-       console.log("Welcome");
-    }
-    // intro(){
-    //     console.log(`${this.name} ${this.id}`)
-    //     console.log("Welcome");
-    //  }
+    // static intro(){
+    //    // console.log(`${this.name} ${this.id}`)
+    //    console.log("Welcome");
+    // }
+    intro(){
+        console.log(`${this.name} ${this.id}`)
+        console.log("Welcome");
+     }
 }
-export {Person}
+const obj1=new Person("Deepak",12)
+obj1.intro()
+//export {Person}
 const arr=[1,2,3,4];
 export {arr}
