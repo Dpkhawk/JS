@@ -17,6 +17,6 @@ objectPractise1.printThis()
 objectPractise1.printThisArrow()
 objectPractise1.schools()
 console.log(objectPractise1.education[2]);
-// console.log(objectPractise1.);
+ console.log(objectPractise1);
 console.log(Object.getPrototypeOf(objectPractise1));
 
