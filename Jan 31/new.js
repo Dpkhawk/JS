@@ -28,3 +28,4 @@ console.log(typeof(undefined));//undefined
 const arr=[1,2,3,4]
 let ab=arr.includes(5);
 console.log(ab);
+console.log("Welcome");
