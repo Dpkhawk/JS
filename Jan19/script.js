@@ -7,3 +7,4 @@ function display(){
     const fcars=car.value;
     alert(`${fnames},${fcars}`);
 }
+console.log('Welcome');
