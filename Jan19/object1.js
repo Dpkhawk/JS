@@ -9,4 +9,3 @@ const person = {
     },
   };
 person.bio()
-person.introduceSelf() 
