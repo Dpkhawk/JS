@@ -23,4 +23,4 @@ numbers.forEach((number,addition)=>{
     addition+=number;
     console.log(addition);
 });
-console.log(addition);
+//console.log(addition);
