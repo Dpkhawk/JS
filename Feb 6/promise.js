@@ -72,3 +72,6 @@ class person{
 }
 const obj1=new person("deepak");
 obj1.greet();
+
+const dr='Hi greetings';
+const arr=dr.split(" ")
