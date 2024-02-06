@@ -14,4 +14,5 @@ const names=["deepak","kumar","karur","ravi"]
 const greet=names.splice(0,2,"vijay","asfaq");
 names.forEach(name=>console.log(name));
 console.log(greet);
+console.log(names);
 // const greets=names.splice(0,2,)

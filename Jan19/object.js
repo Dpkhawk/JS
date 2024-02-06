@@ -8,6 +8,7 @@ const obj1={
 }
 obj1.greet(obj1.fname);
 console.log(obj1.fruit[2]);
+obj1.greet()
 function createPerson(name) {
 
   const obj = {};
