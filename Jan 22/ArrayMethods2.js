@@ -9,3 +9,5 @@ const slicedNames=names.slice(1)//start index
 for(const slicedName of slicedNames){
     console.log(slicedName);
 }
+const spl=names.splice(1);
+console.log(spl);
